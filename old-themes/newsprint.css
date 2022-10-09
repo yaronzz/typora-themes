@@ -570,6 +570,7 @@ header, .context-menu, .megamenu-content, footer {
 .md-task-list-item>input {
 	margin-left: -1.7em;
 	margin-top: calc(1rem - 12px);
+	-webkit-appearance: button;
 }
 
 input {
@@ -609,4 +610,13 @@ input {
 .searchpanel-search-option-btn.active {
 	background: #777;
 	color: white;
+}
+
+.export-detail, .light .export-detail, 
+.light .export-item.active, 
+.light .export-items-list-control {
+	background: #e0e0e0;
+	border-radius: 2px;
+	font-weight: 700;
+	color: inherit
 }
